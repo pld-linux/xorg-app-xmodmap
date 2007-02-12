@@ -1,5 +1,5 @@
 Summary:	xmodmap application
-Summary(pl.UTF-8):   Aplikacja xmodmap
+Summary(pl.UTF-8):	Aplikacja xmodmap
 Name:		xorg-app-xmodmap
 Version:	1.0.2
 Release:	1
