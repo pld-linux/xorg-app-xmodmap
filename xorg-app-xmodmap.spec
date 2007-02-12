@@ -1,5 +1,5 @@
 Summary:	xmodmap application
-Summary(pl):	Aplikacja xmodmap
+Summary(pl.UTF-8):   Aplikacja xmodmap
 Name:		xorg-app-xmodmap
 Version:	1.0.2
 Release:	1
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xmodmap application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja xmodmap.
 
 %prep
