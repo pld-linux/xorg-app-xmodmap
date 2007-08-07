@@ -1,12 +1,12 @@
 Summary:	xmodmap application
 Summary(pl.UTF-8):	Aplikacja xmodmap
 Name:		xorg-app-xmodmap
-Version:	1.0.2
+Version:	1.0.3
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xmodmap-%{version}.tar.bz2
-# Source0-md5:	ea78b3e32e27c3662f86ea68b3aec22f
+# Source0-md5:	626731003ec22a74ecf9e44ed098bbdf
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
