@@ -1,5 +1,5 @@
-Summary:	xmodmap application
-Summary(pl.UTF-8):	Aplikacja xmodmap
+Summary:	xmodmap application - modifying keymaps and pointer button mappings in X
+Summary(pl.UTF-8):	Aplikacja xmodmap - zmiana przypisań klawiszy i przycisków myszy w X
 Name:		xorg-app-xmodmap
 Version:	1.0.3
 Release:	1
@@ -16,10 +16,18 @@ BuildRequires:	xorg-util-util-macros >= 0.99.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-xmodmap application.
+The xmodmap program is used to edit and display the keyboard modifier
+map and keymap table that are used by client applications to convert
+event keycodes into keysyms. It is usually run from the user's session
+startup script to configure the keyboard according to personal tastes.
 
 %description -l pl.UTF-8
-Aplikacja xmodmap.
+Program xmodmap służy do modyfikowania i wyświetlania przypisań
+modyfikatorów klawiatury oraz tablicy przypisań klawiszy używanych
+przez aplikacje klienckie do przekształcania kodów klawiszy zdarzenia
+(keycode) na symbole klawiszy (keysym). Zwykle jest uruchamiany ze
+skryptu startowego sesji użytkownika w celu skonfigurowania klawiatury
+zgodnie z własnymi gustami.
 
 %prep
 %setup -q -n xmodmap-%{version}
