@@ -1,17 +1,18 @@
 Summary:	xmodmap application - modifying keymaps and pointer button mappings in X
 Summary(pl.UTF-8):	Aplikacja xmodmap - zmiana przypisań klawiszy i przycisków myszy w X
 Name:		xorg-app-xmodmap
-Version:	1.0.5
+Version:	1.0.6
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xmodmap-%{version}.tar.bz2
-# Source0-md5:	b18850d373f3717dca569377c449d091
+# Source0-md5:	63b8367814159e2e6acf9a7e97f30162
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-lib-libX11-devel
+BuildRequires:	xorg-proto-xproto-devel >= 7.0.17
 BuildRequires:	xorg-util-util-macros >= 1.8
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
